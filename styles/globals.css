@@ -2,3 +2,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply h-8 w-8 shadow-lg hidden lg:inline-flex hover:shadow-2xl text-white bg-blue-500 m-2 p-2 rounded-2xl hover:scale-110 transition-all cursor-pointer duration-100 hover:bg-green-400;
+  }
+  .nav-btn1 {
+    @apply h-4 w-4 px-2;
+  }
+  .userCon {
+    @apply hidden h-9  mx-5 p-1  lg:flex rounded-full border border-red-600 justify-center items-center;
+  }
+  .nav-btn2 {
+    @apply h-8 w-8 shadow-lg flex hover:shadow-2xl text-white bg-blue-500 m-2 p-2 rounded-2xl hover:scale-110 transition-all cursor-pointer duration-150 hover:bg-green-400;
+  }
+  .side-btn {
+    @apply w-4 h-4 mx-2;
+  }
+  .item-btn {
+    @apply w-8 h-8 mx-2;
+  }
+  .side-btn1 {
+    @apply w-4 h-4 mx-1;
+  }
+}
